@@ -1,10 +1,3 @@
 Manifest-Version: 1.0
-Implementation-Title: bdb-manager-inbox
-Implementation-Version: 0.2.0
-Built-By: jveland
-Implementation-Vendor-Id: co.com.bancodebogota.inbox
-Build-Jdk: 1.8.0_201
-Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
- ot-starter-parent/bdb-manager-inbox
-Created-By: Maven Integration for Eclipse
+Class-Path: 
 

@@ -1,4 +1,4 @@
-/home/jveland/git/DDTGA-ADPE-MANAGER-SOLICITUD/src/test/java/co/com/bancodebogota/inbox/bdbmanagerinbox/BlackListTest.java
-/home/jveland/git/DDTGA-ADPE-MANAGER-SOLICITUD/src/test/java/co/com/bancodebogota/inbox/bdbmanagerinbox/InboxTest.java
-/home/jveland/git/DDTGA-ADPE-MANAGER-SOLICITUD/src/test/java/co/com/bancodebogota/inbox/bdbmanagerinbox/EmployeeTest.java
-/home/jveland/git/DDTGA-ADPE-MANAGER-SOLICITUD/src/test/java/co/com/bancodebogota/inbox/bdbmanagerinbox/CustomerTest.java
+/home/jveland/git/DDTGA-ADPE-AUTH-MANAGER/src/test/java/co/com/bancodebogota/auth/controller/AssociateNitControllerTest.java
+/home/jveland/git/DDTGA-ADPE-AUTH-MANAGER/src/test/java/co/com/bancodebogota/auth/dto/DtoTest.java
+/home/jveland/git/DDTGA-ADPE-AUTH-MANAGER/src/test/java/co/com/bancodebogota/auth/utils/DateUtilsTest.java
+/home/jveland/git/DDTGA-ADPE-AUTH-MANAGER/src/test/java/co/com/bancodebogota/auth/controller/AuthenticationControllerTest.java

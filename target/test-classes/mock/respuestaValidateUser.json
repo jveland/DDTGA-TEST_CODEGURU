@@ -1,0 +1,11 @@
+{
+    "statusResponse": {
+        "statusCode": 0,
+        "severity": "Info",
+        "statusDesc": "Success"
+    },
+    "pseValidateUser": {
+        "externalAuthId": "2776881180",
+        "bnkUserKy": "701008"
+    }
+}

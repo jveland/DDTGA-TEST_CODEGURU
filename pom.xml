@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.3.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>co.com.bancodebogota.inbox</groupId>
-	<artifactId>bdb-manager-inbox</artifactId>
-	<version>0.2.0</version>
-	<name>bdb-manager-inbox</name>
-	<description>Manager Inbox</description>
+	<groupId>co.com.bancodebogota</groupId>
+	<artifactId>bdb-authentication-manager</artifactId>
+	<version>1.0.0</version>
+	<name>bdb-authentication-manager</name>
+	<description>Example of how to consume a restful service</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -24,109 +23,84 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.googlecode.json-simple</groupId>
-			<artifactId>json-simple</artifactId>
-			<version>1.1.1</version>
-		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.functionaljava</groupId>
-			<artifactId>functionaljava</artifactId>
-			<version>4.2</version>
-		</dependency>
-		<dependency>
-			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson</artifactId>
-		</dependency>
-		 <dependency>
-            <groupId>co.com.bancodebogota.utils</groupId>
-            <artifactId>rest-utils</artifactId>
-            <version>3.0.0.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>co.com.bancodebogota.utils</groupId>
-            <artifactId>interceptor-utils</artifactId>
-            <version>0.0.1.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.googlecode.json-simple</groupId>
-            <artifactId>json-simple</artifactId>
-            <version>1.1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.functionaljava</groupId>
-            <artifactId>functionaljava</artifactId>
-            <version>4.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.8.4</version>
-        </dependency>
-
-
-		<dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>20180813</version>
-		</dependency>
-
-
-
-		<dependency>
-			<groupId>co.com.bancodebogota.employee</groupId>
-			<artifactId>bdb-employee-proxy</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
-
-		<dependency>
-			<groupId>co.com.bancodebogota</groupId>
-			<artifactId>bdb-juridical-customer-information-inquiry-proxy</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
-		<dependency>
 			<groupId>co.com.bancodebogota.utils</groupId>
 			<artifactId>encryption-utils</artifactId>
 			<version>0.0.1.RELEASE</version>
 		</dependency>
 		<dependency>
-			<groupId>co.com.bancodebogota.crypto</groupId>
-			<artifactId>ADPE-CRYPTO-UTILS</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
-
-		<dependency>
 			<groupId>co.com.bancodebogota.adpe.utils</groupId>
 			<artifactId>bdb-adpe-utils</artifactId>
-			<version>1.2</version>
+			<version>3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>co.com.bancodebogota.adpe</groupId>
+			<artifactId>PojoUtils</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>
 		</dependency>
 
-    </dependencies>
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20180813</version>
+		</dependency>
+		<dependency>
+			<groupId>bdb-adpe-aws-utils</groupId>
+			<artifactId>bdb-adpe-aws-utils</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>${lombok.version}</version>
+		</dependency>
+
+	</dependencies>
 
 	<build>
-		<finalName>adpe-manager-sol</finalName>
+		<finalName>bdb-manager-authentication</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-
 			</plugin>
 		</plugins>
 	</build>
 
+	<repositories>
+		<repository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>central</id>
+			<name>bintray</name>
+			<url>https://bancodebogota.jfrog.io/bancodebogota/maven-public/</url>
+		</repository>
+	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>central</id>
+			<name>bintray-plugins</name>
+			<url>https://bancodebogota.jfrog.io/bancodebogota/maven-public/</url>
+		</pluginRepository>
+	</pluginRepositories>
+
 </project>
+
+

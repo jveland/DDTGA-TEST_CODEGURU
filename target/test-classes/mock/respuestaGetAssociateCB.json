@@ -1,0 +1,13 @@
+{
+  "statusResponse": {
+    "statusDesc": "Successfull",
+    "status": 0,
+    "timestamp": "2019-07-22T22:17:47"
+  },
+  "data": [
+    {
+      "identityType": "N",
+      "identityNumber": 123456789
+    }
+  ]
+}
