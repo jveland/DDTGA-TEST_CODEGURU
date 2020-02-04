@@ -30,7 +30,7 @@ import co.com.bancodebogota.inbox.bdbmanagerinbox.ui.service.ICaseService;
 
 @Service
 public class CaseServiceImpl implements ICaseService {
-
+//Hola
 	private static final Log logger = LogFactory.getLog(CaseServiceImpl.class);
 
 	@Value("${adapter.adpe.endpoint}")
