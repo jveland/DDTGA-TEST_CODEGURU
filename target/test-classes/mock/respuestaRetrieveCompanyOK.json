@@ -1,0 +1,21 @@
+{
+    "statusDto": {
+        "statusCode": 0,
+        "severity": "Info",
+        "statusDesc": "Success"
+    },
+    "companyElement": {
+        "isEnrolled": 1,
+        "name": "Financial Secure Messages",
+        "allowAccess": 1
+    },
+    
+    "userElement": {
+        "isActive": 1,
+        "email": "blopez@bancodebogota.com.co",
+        "givenName": "Prueba",
+        "userAccountAndFunctionalAccess": "Custom",
+        "userApprovalFunction": "Financial Secure Message Approve",
+        "bnkuserKy": "672511"
+    }
+}

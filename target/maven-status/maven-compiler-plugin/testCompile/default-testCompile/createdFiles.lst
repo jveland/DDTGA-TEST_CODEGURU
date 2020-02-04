@@ -1,0 +1,4 @@
+co/com/bancodebogota/auth/dto/DtoTest.class
+co/com/bancodebogota/auth/controller/AssociateNitControllerTest.class
+co/com/bancodebogota/auth/utils/DateUtilsTest.class
+co/com/bancodebogota/auth/controller/AuthenticationControllerTest.class
